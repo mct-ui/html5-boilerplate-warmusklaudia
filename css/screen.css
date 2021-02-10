@@ -10,6 +10,7 @@ html {
     line-height: 1.5;
     color: #111;
     padding: 24px 24px 0;
+    scroll-behavior: smooth;
 }
 body {
     width: 42em;
@@ -133,6 +134,23 @@ a:focus {
     color: crimson;
 }
 
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+.odd {
+    background-color: whitesmoke;
+}
 /*
     Media Queries
     ---
